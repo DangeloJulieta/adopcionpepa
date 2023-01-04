@@ -6,7 +6,7 @@ let gatos = [
         personalidad: "curioso",
         edad: 2,
         pasatiempo: "jugar con cajas",
-        imagen: "../assets/gato1.jpg"
+        imagen: "./assets/gato1.jpg"
 
     },
     {
@@ -16,7 +16,7 @@ let gatos = [
         personalidad: "dulce",
         edad: 5,
         pasatiempo: "dormir",
-        imagen: "../assets/gato2.jpg"
+        imagen: "./assets/gato2.jpg"
     },
     {
         nombre: "Garfield",
@@ -25,7 +25,7 @@ let gatos = [
         personalidad: "perezoso",
         edad: 4,
         pasatiempo: "comer",
-        imagen: "../assets/gato3.jpg"
+        imagen: "./assets/gato3.jpg"
     },
     {
         nombre: "Luna",
@@ -34,7 +34,7 @@ let gatos = [
         personalidad: "energético",
         edad: 1,
         pasatiempo: "cazar",
-        imagen: "../assets/gato4.jpg"
+        imagen: "./assets/gato4.jpg"
     },
     {
         nombre: "Simba",
@@ -43,7 +43,7 @@ let gatos = [
         personalidad: "orgulloso",
         edad: 3,
         pasatiempo: "reinar sobre su territorio",
-        imagen: "../assets/gato5.jpg"
+        imagen: "./assets/gato5.jpg"
     },
     {
         nombre: "Kiki",
@@ -52,6 +52,6 @@ let gatos = [
         personalidad: "cariñosa",
         edad: 3,
         pasatiempo: "mirar por la ventana",
-        imagen: "../assets/gato6.jpg"
+        imagen: "./assets/gato6.jpg"
     }
 ];
