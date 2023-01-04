@@ -1,0 +1,77 @@
+.caja {
+    background-color: #E5E5E5;
+    color: #14213D;
+    width: auto;
+    height: auto;
+    border: 3px solid #14213D;
+    padding: 20px;
+    min-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    inline-size: auto;
+}
+
+.modal {
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 25%;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    text-align: center;
+}
+
+
+.adoption-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.adoption-form input[type="text"],
+.adoption-form input[type="email"],
+.adoption-form input[type="tel"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.adoption-form input[type="submit"] {
+    width: 50%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adoption-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
